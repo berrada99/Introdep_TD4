@@ -16,4 +16,11 @@ int main()
     printf("%i\n", sub(2, 3));	
     printf("%i\n", add(2, 3));	
     printf("Hello World\n");
+
+    initscr();
+    raw();
+    printw("Hello World");
+    getch();
+    endwin();
+    return 0;
 }

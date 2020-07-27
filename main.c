@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<curses.h>
+#include<ncurses.h>
 
 int sub(int n1, int n2)
 {
